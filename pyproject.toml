@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "py-udal-cwd"
+version = "0.0.0"
+description = "Coastal Water Dynamics UDAL implementation"
+authors = ["Jorge Mendes <jorge.mendes@vliz.be>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "cwd"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+py-udal-interface = {git = "https://github.com/fair-ease/py-udal-interface.git"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
