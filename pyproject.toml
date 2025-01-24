@@ -12,6 +12,14 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.12"
 py-udal-interface = {git = "https://github.com/fair-ease/py-udal-interface.git"}
+copernicusmarine = "^2.0.0"
+numpy = "^2.2.2"
+shapely = "^2.0.6"
+
+[tool.poetry.group.example.dependencies]
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.5"
+folium = "^0.19.4"
 
 [build-system]
 requires = ["poetry-core"]
